@@ -14,15 +14,54 @@
     "groups": [
       {
         "group": "开始了解",
-        "pages": ["index"]
+        "pages": [
+          "index"
+        ]
       },
       {
         "group": "客户案例",
-        "pages": ["customer-cases/index", "customer-cases/three-squirrels-refund"]
+        "pages": [
+          "customer-cases/index",
+          "customer-cases/three-squirrels-refund",
+          "customer-cases/chuntianji-service-data",
+          "customer-cases/mizu-dewu-returns",
+          "customer-cases/meione-after-sales",
+          "customer-cases/xiaolv-ai-organization",
+          "customer-cases/xiaolv-ai-product-launch",
+          "customer-cases/amazon-product-sourcing",
+          "customer-cases/aliexpress-sales-data",
+          "customer-cases/linxiang-cross-border-fulfillment",
+          "customer-cases/roborock-order-processing",
+          "customer-cases/lianke-production-orders",
+          "customer-cases/weishimei-replenishment",
+          "customer-cases/cloud-warehouse-logistics",
+          "customer-cases/freight-booking-alerts",
+          "customer-cases/eland-store-reconciliation",
+          "customer-cases/meiou-vat-reconciliation",
+          "customer-cases/wangdiantong-finance-data",
+          "customer-cases/buydeem-finance-tax",
+          "customer-cases/manufacturer-crm-erp-banking",
+          "customer-cases/doyao-pharma-finance",
+          "customer-cases/fashion-social-compliance",
+          "customer-cases/wondershare-market-intelligence",
+          "customer-cases/shokz-price-monitoring",
+          "customer-cases/manufacturer-sentiment-monitoring",
+          "customer-cases/zongou-multilingual-monitoring",
+          "customer-cases/autoparts-asin-monitoring",
+          "customer-cases/sangshen-asin-monitoring",
+          "customer-cases/education-competitor-monitoring",
+          "customer-cases/dji-data-integration",
+          "customer-cases/anker-service-workforce",
+          "customer-cases/little-swan-reporting",
+          "customer-cases/manufacturer-ai-resume-screening",
+          "customer-cases/commercial-property-leads"
+        ]
       },
       {
         "group": "解决方案",
-        "pages": ["solutions/index"]
+        "pages": [
+          "solutions/index"
+        ]
       }
     ]
   }
