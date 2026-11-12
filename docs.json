@@ -11,20 +11,24 @@
     "primary": "#1976D2"
   },
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "开始了解",
-        "pages": [
-          "index"
+        "tab": "客户案例",
+        "groups": [
+          {
+            "group": "开始了解",
+            "pages": [
+              "index",
+              "customer-cases/index"
+            ]
+          }
         ]
       },
       {
-        "group": "客户案例",
-        "pages": [
-          "customer-cases/index",
+        "tab": "电商与零售",
+        "groups": [
           {
             "group": "电商与零售",
-            "expanded": false,
             "pages": [
               "customer-cases/industry-ecommerce-retail",
               "customer-cases/three-squirrels-refund",
@@ -40,20 +44,28 @@
               "customer-cases/fashion-social-compliance",
               "customer-cases/roborock-order-processing"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "软件与专业服务",
+        "groups": [
           {
             "group": "软件与专业服务",
-            "expanded": false,
             "pages": [
               "customer-cases/industry-software-services",
               "customer-cases/meiou-vat-reconciliation",
               "customer-cases/wondershare-market-intelligence",
               "customer-cases/wangdiantong-finance-data"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "消费电子",
+        "groups": [
           {
             "group": "消费电子",
-            "expanded": false,
             "pages": [
               "customer-cases/industry-consumer-electronics",
               "customer-cases/buydeem-finance-tax",
@@ -62,10 +74,14 @@
               "customer-cases/shokz-price-monitoring",
               "customer-cases/little-swan-reporting"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "制造",
+        "groups": [
           {
             "group": "制造",
-            "expanded": false,
             "pages": [
               "customer-cases/industry-manufacturing",
               "customer-cases/manufacturer-crm-erp-banking",
@@ -77,27 +93,39 @@
               "customer-cases/autoparts-asin-monitoring",
               "customer-cases/sangshen-asin-monitoring"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "医药",
+        "groups": [
           {
             "group": "医药",
-            "expanded": false,
             "pages": [
               "customer-cases/industry-pharmaceuticals",
               "customer-cases/doyao-pharma-finance"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "物流",
+        "groups": [
           {
             "group": "物流",
-            "expanded": false,
             "pages": [
               "customer-cases/industry-logistics",
               "customer-cases/cloud-warehouse-logistics",
               "customer-cases/freight-booking-alerts"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "其他",
+        "groups": [
           {
             "group": "其他",
-            "expanded": false,
             "pages": [
               "customer-cases/industry-other",
               "customer-cases/commercial-property-leads",
@@ -107,9 +135,14 @@
         ]
       },
       {
-        "group": "解决方案",
-        "pages": [
-          "solutions/index"
+        "tab": "解决方案",
+        "groups": [
+          {
+            "group": "解决方案",
+            "pages": [
+              "solutions/index"
+            ]
+          }
         ]
       }
     ]
