@@ -79,7 +79,7 @@ description: "财务与对账 · 制造"
 
 ### 01.概述
 
-[在飞书原文中查看视频：01纷享销客出库单下载.mp4](https://skieer.feishu.cn/docx/ZcSFdtmXLo6FOvx4ZbFcbd3Fnqc)
+[在飞书原文中查看视频：01纷享销客出库单下载.mp4](https://skieer.feishu.cn/wiki/ICE1wbSMYicgwGkpxAqcVCBgnbb)
 
 |  | 说明 |
 |-|-|
@@ -100,7 +100,7 @@ description: "财务与对账 · 制造"
 
 场景1：纷享销客出库单自动下载——RPA定时登录纷享销客，按配置日期筛选审批完成的样品单，自动比对本地去重记录，将新增单据的PDF下载至“待上传”文件夹，全程无人工干预。
 
-[在飞书原文中查看视频：02金蝶云星空出库单上传.mp4](https://skieer.feishu.cn/docx/ZcSFdtmXLo6FOvx4ZbFcbd3Fnqc)
+[在飞书原文中查看视频：02金蝶云星空出库单上传.mp4](https://skieer.feishu.cn/wiki/ICE1wbSMYicgwGkpxAqcVCBgnbb)
 
 场景2：金蝶云星空出库单自动上传——RPA自动登录金蝶，扫描“待上传”文件夹，解析PDF文件名或内容获取单据编码，精确搜索金蝶对应出库单后添加附件，保存成功则移动文件至“已上传”并记录单号；搜索不到或保存失败则移入异常文件夹并群通知。
 
@@ -108,11 +108,11 @@ description: "财务与对账 · 制造"
 
 场景1：招行/中行收款单下载——RPA自动登录招行永隆（汇入款项查询）和中行网银（账户交易记录），按配置日期范围筛选收款记录，逐单下载PDF并解析生成按自然日命名的收款台账Excel，提取单据编号、金额、往来单位等字段，自动去空格匹配金蝶往来单位对照表；匹配失败则留空并触发群通知。
 
-[在飞书原文中查看视频：03招商银行收款单&付款单下载.mp4](https://skieer.feishu.cn/docx/ZcSFdtmXLo6FOvx4ZbFcbd3Fnqc)
+[在飞书原文中查看视频：03招商银行收款单&付款单下载.mp4](https://skieer.feishu.cn/wiki/ICE1wbSMYicgwGkpxAqcVCBgnbb)
 
 场景2：金蝶云星空收款单自动上传——RPA扫描本地“收款单-待上传”文件夹，根据PDF单据ID匹配台账记录，校验客户名称完整性后，自动在金蝶中新增收款单，填写应收金额、手续费及收款用途（预收款），保存成功后上传PDF附件；金额比对不一致或保存重试3次失败则移入异常并群通知，成功后更新台账状态为“已上传”并归档文件。
 
-[在飞书原文中查看视频：04金蝶云星空收款单上传.mp4](https://skieer.feishu.cn/docx/ZcSFdtmXLo6FOvx4ZbFcbd3Fnqc)
+[在飞书原文中查看视频：04金蝶云星空收款单上传.mp4](https://skieer.feishu.cn/wiki/ICE1wbSMYicgwGkpxAqcVCBgnbb)
 
 **三、付款单跨系统同步（网银后台 → 金蝶）**
 
