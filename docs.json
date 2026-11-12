@@ -18,7 +18,7 @@
       },
       {
         "group": "客户案例",
-        "pages": ["customer-cases/index"]
+        "pages": ["customer-cases/index", "customer-cases/three-squirrels-refund"]
       },
       {
         "group": "解决方案",
