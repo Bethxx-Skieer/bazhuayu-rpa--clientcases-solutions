@@ -1,0 +1,24 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "八爪鱼 RPA 客户案例与解决方案",
+  "colors": {
+    "primary": "#1976D2"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "开始了解",
+        "pages": ["index"]
+      },
+      {
+        "group": "客户案例",
+        "pages": ["customer-cases/index"]
+      },
+      {
+        "group": "解决方案",
+        "pages": ["solutions/index"]
+      }
+    ]
+  }
+}
