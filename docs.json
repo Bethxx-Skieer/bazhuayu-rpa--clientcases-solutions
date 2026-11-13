@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "八爪鱼 RPA",
+  "name": "八爪鱼 RPA 客户案例和解决方案",
   "favicon": "/assets/favicon.png",
   "logo": {
     "light": "/assets/logo-light.svg",
