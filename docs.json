@@ -334,6 +334,60 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "场景视频",
+        "groups": [
+          {
+            "group": "场景视频",
+            "pages": [
+              "scene-videos/index",
+              {
+                "group": "国内电商",
+                "expanded": false,
+                "pages": [
+                  "scene-videos/domestic/index",
+                  "scene-videos/domestic/taobao-tmall",
+                  "scene-videos/domestic/jd",
+                  "scene-videos/domestic/business-advisor",
+                  "scene-videos/domestic/general",
+                  "scene-videos/domestic/jushuitan",
+                  "scene-videos/domestic/wangdiantong"
+                ]
+              },
+              {
+                "group": "跨境电商",
+                "expanded": false,
+                "pages": [
+                  "scene-videos/cross-border/index",
+                  "scene-videos/cross-border/amazon",
+                  "scene-videos/cross-border/temu",
+                  "scene-videos/cross-border/walmart",
+                  "scene-videos/cross-border/general",
+                  "scene-videos/cross-border/dhgate",
+                  "scene-videos/cross-border/lingxing-erp",
+                  "scene-videos/cross-border/ebay"
+                ]
+              },
+              {
+                "group": "通用",
+                "expanded": false,
+                "pages": [
+                  "scene-videos/general/index",
+                  "scene-videos/general/hr",
+                  "scene-videos/general/finance",
+                  "scene-videos/general/wechat-private",
+                  "scene-videos/general/overseas-social",
+                  "scene-videos/general/domestic-social",
+                  "scene-videos/general/crm",
+                  "scene-videos/general/files-and-tables"
+                ]
+              },
+              "scene-videos/healthcare/index",
+              "scene-videos/real-estate/index"
+            ]
+          }
+        ]
       }
     ]
   }
